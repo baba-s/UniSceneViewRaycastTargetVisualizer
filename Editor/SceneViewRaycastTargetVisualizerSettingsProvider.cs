@@ -45,7 +45,7 @@ namespace Kogane.Internal
 		[SettingsProvider]
 		private static SettingsProvider Create()
 		{
-			var path     = "Preferences/UniSceneViewRaycastTargetVisualizer";
+			var path     = "Kogane/UniSceneViewRaycastTargetVisualizer";
 			var provider = new SceneViewRaycastTargetVisualizerSettingsProvider( path, SettingsScope.User );
 
 			return provider;
